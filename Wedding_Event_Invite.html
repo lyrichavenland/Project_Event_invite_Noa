@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <style>
+        body {
+            font-family: 'Georgia', serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .invite-card, .second-line {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 90%;
+            max-width: 600px;
+            padding: 30px;
+            text-align: center;
+            transform: rotate(-2deg);
+        }
+
+        .main-text {
+            font-size: 28px;
+            font-weight: bold;
+            color: #333333;
+            margin-bottom: 20px;
+        }
+
+        .names {
+            font-size: 36px;
+            font-family: 'Cursive', serif;
+            font-weight: 500;
+            color: #8b5e34;
+            margin-bottom: 10px;
+        }
+
+        .details {
+            font-size: 16px;
+            color: #555555;
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+
+        .location {
+            font-size: 14px;
+            color: #777777;
+            margin-top: 15px;
+        }
+
+        .rsvp-button {
+            display: inline-block;
+            padding: 12px 25px;
+            font-size: 16px;
+            color: white;
+            background-color: #8b5e34;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+            margin-top: 20px;
+        }
+
+        .rsvp-button:hover {
+            background-color: #6b4428;
+        }
+    </style>
+</head>
+<body>
+    <div class="invite-card">
+        <div class="main-text"> Nothing fancy, just love<br>
+        and an open bar.</div>
+        <div class="names">Fermina & Melvin</div>
+        <div class="details">
+            Are tying the knot<br>
+            Please join us for the ceremony followed by dinner and dancing<br>
+            <span class="location">
+                78 Severne Road, Acocks Green",B27 7HL<br>
+                August 13, 2032 at 5 PM until late
+            </span>
+        </div>
+        <a href="#" class="rsvp-button">RSVP Now</a>
+    </div>
+</body>
+</html>
